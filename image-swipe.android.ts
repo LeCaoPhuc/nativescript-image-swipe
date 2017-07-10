@@ -358,6 +358,8 @@ class ZoomImageView extends android.widget.ImageView {
                     this.setTotalTranslateY(this.getTotalTranslateY() + this.getTranslateY());
                     this.setTranslateX(0);
                     this.setTranslateY(0);
+                    if(this._scaleFactor[0]==this._minScaleFactor[0] )
+                        this.getRootView().setVisibility(android.view.View.GONE)
                     break;
 
                 case android.view.MotionEvent.ACTION_POINTER_UP:
