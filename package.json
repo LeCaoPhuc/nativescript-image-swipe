@@ -12,7 +12,7 @@
     "plugin": {
         "nan": "true",
         "pan": "true",
-        "core3": "true",
+        "core3": "false",
         "category": "Interface"
       }
   },
